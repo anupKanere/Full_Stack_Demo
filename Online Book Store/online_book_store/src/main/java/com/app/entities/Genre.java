@@ -1,0 +1,5 @@
+package com.app.entities;
+
+public enum Genre {
+	FICTION, BIOGRAPHY, HISTORY, HORROR, POETRY, COMIC, ROMANCE, THRILLER, DRAMA, MYTHOLOGICAL
+}

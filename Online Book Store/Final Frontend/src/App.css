@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+ /* Added */
+ .login-form{
+  background-image:url('../public/images/login-wallpaper.jpg');
+  background-size: cover;
+}
+
+.cart{
+  background-image:url('../public/images/cart-wallpaper.jpg');
+  background-size: cover;
+  height:100vh;
+}
+
+.homepage{
+  background-image: url('../public/images/homepage-wallpaper.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+input.form-control.form-control-lg {
+  border-radius: 0rem;
+  background-color: #a9a9a942;
+}
+
+button.btn.btn-success {
+  border-radius: 0rem;
+  width: -webkit-fill-available;
+  height: 3rem;
+}
+
+span.lastspan {
+  margin-left: 1.5rem;
+}
+
+.m-4 {
+  margin: 2.5rem !important;
+}
+
+.p-5 {
+  padding: 1rem !important;
+  background-color: rgb(218, 218, 218);
+}
+
+.align-items-center {
+  align-items: center !important;
+  
+
+  
+}
+
+.row.m-4.align-items-center.justify-content-evenly {
+  
+  background-color: rgb(218, 218, 218);
+}
+
+.col-4.align-self-center.p-5 {
+  box-shadow: 0.5rem 0.5rem 2rem 5px;
+}
+
+/* Slides css */
+.w-100{
+  height: 93vh;
+}
+
+/* Category css */
+.category-table{
+  background-image: url('../public/category/img1.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.log-in-in{
+  text-align: center;
+  font-family: cursive;
+
+}
+
+/* Register Page css */
+
+.col-6.align-self-center.p-5 {
+  box-shadow: 0.5rem 0.5rem 2rem 5px;
+}
+
+.register-form{
+  background-image: url('../public/images/signup-wallpaper.jpg');
+  background-size: cover;
+  
+}
+
+/* About-US css */
+
+.about-us{
+  background-image: url('../public/wallpapers/img2.jpg');
+  background-size: cover;
+
+
+}
+
+/* Contact-Us css */
+
+.contact-us-us{
+  background-image: url('../public/images/contactUs-wallpaper.jpg');
+  background-size: cover;
+  height:100vh;
+
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.admin-page{
+  background-image: url('../public/images/admin-wallpaper.jpg');
+  background-size: cover;
+  height:100vh;
+}
+
+.button-cool{
+  padding:12px;
+  cursor:pointer;
+  background: blueviolet;
+  color:white;
+  transition: .5s ease;
+  border-radius:10px;
+}
+
+.button-cool:hover{
+  background: transparent;
+  border: 2px solid #0d4eda;
+  box-shadow: 0 0 10px 0 #0d4eda inset,
+              0 0 10px 4px #0d4eda;
+  border-radius:10px;
+  }
+
+ 
